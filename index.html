@@ -9,13 +9,6 @@
 <!-- what people generally do:
  -->
 
-<h1>my homepage</h1>
-
-<h1 id="main-title">  this is using id </h1>
-
-<h1 class="title2">  this is using class </h1>
-
-
 <style>
 
 /* can now write css code between this
@@ -34,17 +27,78 @@
 /* making selectors more specific
  */
   
-  
   #main-title {
     color: yellow;
-    font-size:25px;
+    font-size: 25px;
     
   }
   
-  
-  .title2 {
+  .fancytitles {
     
     color: pink;
+    font-family: fantasy;
     font-size: 30px;
   }
+  
+  #back {
+    background-color: pink;
+    display: inline;
+    color: orange;
+  }
+  
+  #box {
+    background-color: yellow;
+    padding: 200px;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    margin: 200px;
+    
+    
+  }
+  
+  #box2 {
+    
+    background-color: green;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 55px;
+    
+  }
+  
+  #box3 {
+    
+    padding: 20px, 30px, 40px, 50px;
+    background-color: red;
+    color: black
+  }
+  
 </style>
+
+<h1>my homepage</h1>
+
+<h1 id="main-title">  this is using id </h1>
+
+<h1 class="fancytitles">  this is using class </h1>
+
+<h1 class="fancytitles">  this is also using class! </h1>
+
+<h1 id="back">
+   all elements are boxes!
+</h1>
+
+<a href="#"> what does this do</a>
+
+<h1 id="box">
+   box model is cool
+</h1>
+
+<h3>hi hi</h3>
+
+<br>
+
+<h1 id="box2">this is another box example</h1>
+
+<h1 id="box3">this is YET another box example</h1>
+
