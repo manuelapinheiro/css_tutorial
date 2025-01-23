@@ -64,6 +64,7 @@
     padding-right: 30px;
     padding-bottom: 100px;
     padding-left: 55px;
+    text-align: center;
     
   }
   
@@ -73,22 +74,28 @@
 /*     you can also change padding and add only the first two numbers and this would be left right */
     margin: 20px 30px 100px 55px;
     background-color: red;
-    color: black
+    color: black;
+    font-family: Helvetica, sans-serif;
+/*     this defaults to a sans serif font if they don't have helvetica on their computer */
   }
   
   #box4 {
     color: white;
     background-color: red;
     width: 250px;
-    height: 100px;
-    margin: 50px auto;
+    height: 300px;
+    margin: 100px auto;
+    font-family: monospace;
   }
   
   #box5 {
     
-    color: red;
+    color: rgb(135, 78, 214);
     background-color: yellow;
     margin: 50vh auto;
+    width: 50vw;
+    border: 5px solid green;
+    font-family: sans-serif;
   }
   
 </style>
@@ -115,14 +122,14 @@
 
 <br>
 
-<h1 id="box2">this is another box example</h1>
+<h1 id="box2">this is another box example VERY ALIGNED</h1>
 
-<h1 id="box3">this is YET another box example</h1>
+<h1 id="box3">this is YET another box example - remeber that making things inline ignores the width</h1>
 
 <h1 id="box4">
-   hello hello
+   everything is ultimately a box
 </h1>
 
 <h1 id="box5">
-  vh is viewport height
+  vh is viewport height they help your text respond proportionally to the screen you're viewing this on and look at this cool border
 </h1>
